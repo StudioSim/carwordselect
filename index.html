@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | MSLibUnity</title>
+    <title>Unity Web Player | CarWordSelect</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/LTDemoUnityWebBuild2.loader.js"></script>
+    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #CCCCCC"></canvas>
+    <script src="Build/carwordselectDiskSize.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,12 +26,12 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/LTDemoUnityWebBuild2.data.unityweb",
-        frameworkUrl: "Build/LTDemoUnityWebBuild2.framework.js.unityweb",
-        codeUrl: "Build/LTDemoUnityWebBuild2.wasm.unityweb",
+        dataUrl: "Build/carwordselectDiskSize.data.unityweb",
+        frameworkUrl: "Build/carwordselectDiskSize.framework.js.unityweb",
+        codeUrl: "Build/carwordselectDiskSize.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MSLibStudio",
-        productName: "MSLibUnity",
+        productName: "CarWordSelect",
         productVersion: "0.2.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
